@@ -2,7 +2,6 @@
 body {
     font-family: 'Segoe UI', sans-serif; /* Font */
     margin: 20px; /* Space around page */
-    text-align: center; /* Center text */
     color: #333; /* Text color */
     background-color: #fafafa; /* Background color */
 }
@@ -81,11 +80,6 @@ input:focus, button:focus {
 section {
     padding: 40px 0; /* Vertical padding */
     border-bottom: 2px solid #e0e0e0; /* Divider line */
-}
-
-/* Last section */
-section:last-child {
-    border-bottom: none; /* No divider */
 }
 
 /* Horizontal rule */
