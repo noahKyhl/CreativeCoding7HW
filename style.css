@@ -1,81 +1,34 @@
 /* Body styles */
-/* Body styles */
 body {
-    font-family: 'Segoe UI', sans-serif; /* Font */
-    margin: 20px; /* Space around page */
-    color: #333; /* Text color */
-    background-color: #fafafa; /* Background color */
-    text-align: left; /* Align text to the left */
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #fafafa;
+    text-align: left;
 }
 
 /* Headings */
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Font */
-    margin-bottom: 10px; /* Spacing */
-    color: #333; /* Text color */
-    text-transform: uppercase; /* Uppercase */
-    letter-spacing: 1px; /* Letter spacing */
-}
-
-/* Heading sizes */
-h1 {
-    font-size: 2.5rem; /* Large */
-}
-
-h2 {
-    font-size: 2rem; /* Medium */
-}
-
-h3 {
-    font-size: 1.5rem; /* Small */
-    color: #555; /* Lighter text */
-}
-
-/* Images */
-img {
-    max-width: 100%; /* Resizing */
-    height: auto; /* Aspect ratio */
-    margin: 15px 0; /* Spacing */
-    border-radius: 8px; /* Rounded corners */
-    display: block; /* Prevents centering */
-}
-
-/* Links */
-a {
-    color: #007BFF; /* Blue */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold */
-}
-
-/* Link hover */
-a:hover {
-    text-decoration: underline; /* Underline on hover */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-transform: uppercase;
 }
 
 /* Form */
 form {
     font-family: 'Segoe UI', sans-serif;
     max-width: 400px;
-    margin: 20px 0; /* Remove 'auto' so it's not centered */
+    margin: 20px 0;
     padding: 20px;
-    background: linear-gradient(135deg, #f0f4f8, #d1e7fd); /* Gradient background */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
-    transition: all 0.3s ease; /* Smooth transition */
-}
-
-form:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
-    transform: translateY(-5px); /* Slightly lift the form on hover */
+    background: #6a849d;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(137, 26, 145, 0.1);
 }
 
 label {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 8px;
-    display: block;
-    font-weight: 500;
-    letter-spacing: 0.5px;
 }
 
 input, button {
@@ -84,32 +37,27 @@ input, button {
     margin-bottom: 15px;
     padding: 12px;
     border-radius: 8px;
-    border: 2px solid #ddd;
     font-size: 1rem;
-    background-color: #ffffff;
-    transition: border-color 0.3s, box-shadow 0.3s;
+    border: 2px solid #ddd;
 }
 
 input:focus, button:focus {
-    border-color: #9604e4; /* Green border on focus */
-    box-shadow: 0 0 10px rgba(152, 76, 175, 0.4); /* Green glow effect */
-    outline: none; /* Remove default focus outline */
+    border-color: #9604e4; /* Purple border on focus */
+    box-shadow: 0 0 10px rgba(152, 76, 175, 0.4);
 }
 
 input {
-    background-color: #fafafa; /* Light background for inputs */
+    background-color: #fafafa;
 }
 
 button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #9604e4; /* Purple background */
     color: white;
-    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #7a00b3; /* Darker purple on hover */
 }
 
 /* Subtle divider line for sections within the form */
@@ -117,22 +65,4 @@ hr {
     border: 0;
     border-top: 2px solid #ddd;
     margin: 20px 0;
-}
-
-/* Adding some extra space between form elements */
-form > *:not(hr) {
-    margin-bottom: 15px;
-}
-
-/* Sections */
-section {
-    padding: 40px 0; /* Vertical padding */
-    border-bottom: 2px solid #e0e0e0; /* Divider line */
-}
-
-/* Horizontal rule */
-hr {
-    border: 0; /* Remove default line */
-    border-top: 2px solid #ddd; /* Soft line */
-    margin: 20px 0; /* Spacing */
 }
