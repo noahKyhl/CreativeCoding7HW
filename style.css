@@ -58,3 +58,35 @@ hr {
     border-top: 2px solid #ddd;
     margin: 20px 0;
 }
+
+/* Custom Class Selectors */
+.container {
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+.requirements {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ID Selectors */
+#game-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Background image for second page */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
