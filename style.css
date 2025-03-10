@@ -1,51 +1,45 @@
 /* Body styles */
-/* Body styles */
 body {
     font-family: 'Segoe UI', sans-serif;
-    margin: 20px;
-    color: #333;
-    background-color: #fafafa;
+    margin: 15px;
+    color: #000000;
     text-align: left;
 }
 
 /* Headings */
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #000000;
     text-transform: uppercase;
 }
 
 /* Form */
 form {
     font-family: 'Segoe UI', sans-serif;
-    background: #4d85b9;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(137, 26, 145, 0.1);
-    max-width: 600px;  /* Set form max width */
-    margin: 20px auto;  /* Center the form */
-    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(61, 130, 79, 0.1);
     box-sizing: border-box; /* Include padding in total width calculation */
 }
 
 label {
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 1.5rem;
+    color: #000000;
     margin-bottom: 8px;
-    display: block;  /* Ensure labels are on separate lines */
+    display: block;  /* Ensures labels are on separate lines */
 }
 
 input, button {
     display: block;
-    width: 100%;  /* Make inputs and buttons span full width */
     border: 2px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 input:focus, button:focus {
-    border-color: #9604e4; /* Purple border on focus */
-    box-shadow: 0 0 10px rgba(152, 76, 175, 0.4);
+    border-color: #71caa8; 
+    box-shadow: 0 0 10px rgba(76, 145, 175, 0.4);
 }
 
 input {
@@ -53,13 +47,13 @@ input {
 }
 
 button {
-    background-color: #9604e4; /* Purple background */
-    color: white;
+    background-color: #5ad16e; 
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #7a00b3; /* Darker purple on hover */
+    background-color: #71caa8; 
 }
 
 /* Subtle divider line for sections within the form */
@@ -73,7 +67,6 @@ hr {
 .container {
     padding: 20px;
     border: 2px solid #ddd;
-    background-color: #fff;
     margin: 20px 0;
     border-radius: 10px;
 }
@@ -93,7 +86,7 @@ hr {
 }
 
 #footer {
-    background-color: #333;
+    background-color: #d5d2d2;
     color: white;
     text-align: center;
     padding: 10px;
