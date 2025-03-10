@@ -1,9 +1,11 @@
 /* Body styles */
+/* Body styles */
 body {
     font-family: 'Segoe UI', sans-serif; /* Font */
     margin: 20px; /* Space around page */
     color: #333; /* Text color */
     background-color: #fafafa; /* Background color */
+    text-align: left; /* Align text to the left */
 }
 
 /* Headings */
@@ -35,6 +37,7 @@ img {
     height: auto; /* Aspect ratio */
     margin: 15px 0; /* Spacing */
     border-radius: 8px; /* Rounded corners */
+    display: block; /* Prevents centering */
 }
 
 /* Links */
@@ -51,92 +54,74 @@ a:hover {
 
 /* Form */
 form {
-    form {
-        font-family: 'Segoe UI', sans-serif;
-        max-width: 400px;
-        margin: 20px auto;
-        padding: 20px;
-        background: linear-gradient(135deg, #f0f4f8, #d1e7fd); /* Gradient background */
-        border-radius: 15px; /* Rounded corners */
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
-        transition: all 0.3s ease; /* Smooth transition */
-        }
-
-        form:hover {
-        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
-        transform: translateY(-5px); /* Slightly lift the form on hover */
-        }
-
-        label {
-        font-size: 1.1rem;
-        color: #555;
-        margin-bottom: 8px;
-        display: block;
-        font-weight: 500;
-        letter-spacing: 0.5px;
-        }
-
-        input, button {
-        display: block;
-        width: 100%;
-        margin-bottom: 15px;
-        padding: 12px;
-        border-radius: 8px;
-        border: 2px solid #ddd;
-        font-size: 1rem;
-        background-color: #ffffff;
-        transition: border-color 0.3s, box-shadow 0.3s;
-        }
-
-        input:focus, button:focus {
-        border-color: #9604e4; /* Green border on focus */
-        box-shadow: 0 0 10px rgba(152, 76, 175, 0.4); /* Green glow effect */
-        outline: none; /* Remove default focus outline */
-        }
-
-        input {
-        background-color: #fafafa; /* Light background for inputs */
-        }
-
-        button {
-        background-color: #4CAF50; /* Green background */
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        }
-
-        button:hover {
-        background-color: #45a049; /* Darker green on hover */
-        }
-
-        /* Subtle divider line for sections within the form */
-        hr {
-        border: 0;
-        border-top: 2px solid #ddd;
-        margin: 20px 0;
-        }
-
-        /* Adding some extra space between form elements */
-        form > *:not(hr) {
-        margin-bottom: 15px;
-        }
-    }
-
-/* Inputs & Buttons */
-input, button {
-    width: 100%; /* Full width */
-    padding: 12px; /* Internal padding */
-    margin-bottom: 15px; /* Spacing */
-    border-radius: 5px; /* Rounded corners */
-    border: 1px solid #ccc; /* Border */
-    font-size: 16px; /* Text size */
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 400px;
+    margin: 20px 0; /* Remove 'auto' so it's not centered */
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #d1e7fd); /* Gradient background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition */
 }
 
-/* Focus effect */
+form:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+    transform: translateY(-5px); /* Slightly lift the form on hover */
+}
+
+label {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+    background-color: #ffffff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
 input:focus, button:focus {
-    border-color: #007BFF; /* Blue border */
-    outline: none; /* No outline */
+    border-color: #9604e4; /* Green border on focus */
+    box-shadow: 0 0 10px rgba(152, 76, 175, 0.4); /* Green glow effect */
+    outline: none; /* Remove default focus outline */
+}
+
+input {
+    background-color: #fafafa; /* Light background for inputs */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Subtle divider line for sections within the form */
+hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Adding some extra space between form elements */
+form > *:not(hr) {
+    margin-bottom: 15px;
 }
 
 /* Sections */
@@ -151,4 +136,3 @@ hr {
     border-top: 2px solid #ddd; /* Soft line */
     margin: 20px 0; /* Spacing */
 }
-
