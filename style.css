@@ -1,49 +1,97 @@
+/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-    color: #333;
+    font-family: 'Segoe UI', sans-serif; /* Font */
+    margin: 20px; /* Space around page */
+    text-align: center; /* Center text */
+    color: #333; /* Text color */
+    background-color: #fafafa; /* Background color */
 }
 
+/* Headings */
 h1, h2, h3 {
-    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Font */
+    margin-bottom: 10px; /* Spacing */
+    color: #333; /* Text color */
+    text-transform: uppercase; /* Uppercase */
+    letter-spacing: 1px; /* Letter spacing */
 }
 
+/* Heading sizes */
+h1 {
+    font-size: 2.5rem; /* Large */
+}
+
+h2 {
+    font-size: 2rem; /* Medium */
+}
+
+h3 {
+    font-size: 1.5rem; /* Small */
+    color: #555; /* Lighter text */
+}
+
+/* Images */
 img {
-    max-width: 100%;
-    height: auto;
-    margin: 15px 0;
+    max-width: 100%; /* Resizing */
+    height: auto; /* Aspect ratio */
+    margin: 15px 0; /* Spacing */
+    border-radius: 8px; /* Rounded corners */
 }
 
+/* Links */
 a {
-    color: #007BFF;
-    text-decoration: none;
+    color: #007BFF; /* Blue */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold */
 }
 
+/* Link hover */
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover */
 }
 
+/* Form */
 form {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 15px;
+    max-width: 400px; /* Width */
+    margin: 20px auto; /* Centered */
+    padding: 20px; /* Internal space */
+    background-color: #fff; /* Background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow */
+    border-top: 4px solid #4CAF50; /* Top border */
 }
 
+/* Inputs & Buttons */
 input, button {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    width: 100%; /* Full width */
+    padding: 12px; /* Internal padding */
+    margin-bottom: 15px; /* Spacing */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border */
+    font-size: 16px; /* Text size */
 }
 
-button {
-    background: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+/* Focus effect */
+input:focus, button:focus {
+    border-color: #007BFF; /* Blue border */
+    outline: none; /* No outline */
 }
 
-button:hover {
-    background: #45a049;
+/* Sections */
+section {
+    padding: 40px 0; /* Vertical padding */
+    border-bottom: 2px solid #e0e0e0; /* Divider line */
 }
+
+/* Last section */
+section:last-child {
+    border-bottom: none; /* No divider */
+}
+
+/* Horizontal rule */
+hr {
+    border: 0; /* Remove default line */
+    border-top: 2px solid #ddd; /* Soft line */
+    margin: 20px 0; /* Spacing */
+}
+
