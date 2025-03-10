@@ -9,6 +9,12 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
 a {
     color: #007BFF;
     text-decoration: none;
@@ -16,6 +22,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
 }
 
 input, button {
