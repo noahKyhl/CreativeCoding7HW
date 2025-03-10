@@ -1,4 +1,5 @@
 /* Body styles */
+/* Body styles */
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 20px;
@@ -20,17 +21,26 @@ form {
     background: #4d85b9;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(137, 26, 145, 0.1);
+    max-width: 600px;  /* Set form max width */
+    margin: 20px auto;  /* Center the form */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in total width calculation */
 }
 
 label {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 8px;
+    display: block;  /* Ensure labels are on separate lines */
 }
 
 input, button {
     display: block;
-    border: 10px solid #ddd;
+    width: 100%;  /* Make inputs and buttons span full width */
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 input:focus, button:focus {
@@ -63,18 +73,23 @@ hr {
 .container {
     padding: 20px;
     border: 2px solid #ddd;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
 .requirements {
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-/* ID Selectors */
-#game-section {
+.game-section {
     background-color: #e0e0e0;
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #footer {
@@ -82,11 +97,4 @@ hr {
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-/* Background image for second page */
-body {
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
 }
