@@ -1,4 +1,3 @@
-/* Body styles */
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 15px;
@@ -6,26 +5,24 @@ body {
     text-align: left;
 }
 
-/* Headings */
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: #000000;
     text-transform: uppercase;
 }
 
-/* Form */
 form {
     font-family: 'Segoe UI', sans-serif;
     background: #ffffff;
     box-shadow: 0 8px 20px rgba(61, 130, 79, 0.1);
-    box-sizing: border-box; /* Include padding in total width calculation */
+    box-sizing: border-box; /*padding*/
 }
 
 label {
     font-size: 1.5rem;
     color: #000000;
     margin-bottom: 8px;
-    display: block;  /* Ensures labels are on separate lines */
+    display: block;  /*ensures labels r separate*/
 }
 
 input, button {
@@ -56,14 +53,14 @@ button:hover {
     background-color: #71caa8; 
 }
 
-/* Subtle divider line for sections within the form */
+/*seperator*/
 hr {
     border: 0;
     border-top: 2px solid #ddd;
     margin: 20px 0;
 }
 
-/* Custom Class Selectors */
+/*border around text*/
 .container {
     padding: 20px;
     border: 2px solid #ddd;
@@ -71,23 +68,26 @@ hr {
     border-radius: 10px;
 }
 
-.requirements {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.game-section {
-    background-color: #e0e0e0;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-#footer {
-    background-color: #d5d2d2;
-    color: white;
-    text-align: center;
+/*highlight items in text*/
+.highlight {
+    background-color: #000000;
+    color: #fffffff3;
     padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ID selectors */
+#main-header {
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#form-container {
+    background-color: #e0e0e0;
+    padding: q0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
